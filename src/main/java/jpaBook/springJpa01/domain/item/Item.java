@@ -1,9 +1,12 @@
 package jpaBook.springJpa01.domain.item;
 
+import jpaBook.springJpa01.domain.Category;
 import lombok.Getter;
 import lombok.Setter;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Entity
 // 상속받은 클래스들의 전략 설정 (한테이블에 나타나게 설정)
@@ -20,4 +23,7 @@ public abstract class Item {
     private String name;
     private int price;
     private int stockQuantity;
+
+    @ManyToMany(mappedBy = "items")
+    private List<Category> categories = new ArrayList<Category>();
 }
