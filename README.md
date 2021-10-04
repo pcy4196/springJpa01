@@ -9,4 +9,5 @@
     2. 도메인(엔티티) 클래스 개발시 주의점
         1. 연관관계 메서드(양방향 편의 메서드)
         2. FetchType(XToOne) 추가, CascadeType(OneToOne) 추가
+    3. 회원 도메인(Domain) 개발
     
