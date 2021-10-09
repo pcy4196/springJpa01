@@ -24,14 +24,14 @@ public class MemberService {
     * 회원가입
     */
     @Transactional
-    private Long join(Member member) {
+    public Long join(Member member) {
         validateDuplicateMember(member);
         memberRepository.save(member);
         return member.getId();
     }
 
     // 중복 회원 검증
-    private void validateDuplicateMember(Member member) {
+    public void validateDuplicateMember(Member member) {
         // Exception
         List<Member> findMembers = memberRepository.findByMember(member.getName());
         if (!findMembers.isEmpty()) {
