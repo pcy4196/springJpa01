@@ -10,4 +10,6 @@
         1. 연관관계 메서드(양방향 편의 메서드)
         2. FetchType(XToOne) 추가, CascadeType(OneToOne) 추가
     3. 회원 도메인(Domain) 개발
-    
+        1. 회원 서비스(MemberService) 개발
+        2. 기능(MemberServiceTest) 테스트
+        3. h2 메모리 DB 설정
