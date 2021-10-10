@@ -15,7 +15,7 @@ public class MemberService {
 
     private final MemberRepository memberRepository;
 
-//    @Autowired -- 최신 버전에서는 생략 가능
+//    @Autowired -- 최신 버전에서는 생략 가능(생성자가 하나만 있을경우)
 //    public MemberService(MemberRepository memberRepository) {
 //        this.memberRepository = memberRepository;
 //    }
