@@ -7,9 +7,11 @@
   + Ch02. Domain
     1. 도메인(엔티티) 클래스 개발
     2. 도메인(엔티티) 클래스 개발시 주의점
-        1. 연관관계 메서드(양방향 편의 메서드)
-        2. FetchType(XToOne) 추가, CascadeType(OneToOne) 추가
+       1. 연관관계 메서드(양방향 편의 메서드)
+       2. FetchType(XToOne) 추가, CascadeType(OneToOne) 추가
     3. 회원 도메인(Domain) 개발
-        1. 회원 서비스(MemberService) 개발
-        2. 기능(MemberServiceTest) 테스트
-        3. h2 메모리 DB 설정
+       1. 회원 서비스(MemberService) 개발
+       2. 기능(MemberServiceTest) 테스트
+       3. h2 메모리 DB 설정
+    4. 상품 도메인(Domain) 개발
+       1. 상품 엔티티(Entity) 개발(비즈니스 로직) 추가 
