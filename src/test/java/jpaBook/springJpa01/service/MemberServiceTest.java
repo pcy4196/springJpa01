@@ -43,7 +43,7 @@ public class MemberServiceTest {
         assertEquals(member, memberRepository.findOne(saveId));
     }
 
-    @Test(expected = IllegalStateException.class)
+    @Test(expected = IllegalStateException.class) // IllegalStateException 발생해야지만 true
     public void 중복_회원_예외() throws Exception {
         // given
         Member member1 = new Member();

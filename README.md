@@ -17,3 +17,6 @@
        1. 상품 엔티티(Entity) 개발(비즈니스 로직) 추가 
        2. 상품(Item) 리포지터리 개발
        3. 상품 서비스 및 TEST 개발
+    5. 주문 도메인(Domain) 개발
+       1. 주문, 주문상품(Order,OrderItem) 엔티티 개발
+       2. 주문 Repository 개발
