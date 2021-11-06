@@ -1,6 +1,8 @@
 package jpaBook.springJpa01.domain;
 
+import lombok.AccessLevel;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.aspectj.weaver.ast.Or;
 
@@ -15,6 +17,7 @@ import static javax.persistence.FetchType.*;
 @Entity
 @Table(name = "orders")
 @Getter @Setter
+@NoArgsConstructor(access = AccessLevel.PROTECTED) // 생성 메서드를 사용하게 설정 new Order(); --> 불가
 public class Order {
 
     @Id @GeneratedValue
