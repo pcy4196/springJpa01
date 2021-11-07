@@ -21,3 +21,4 @@
        1. 주문, 주문상품(Order,OrderItem) 엔티티 개발
        2. 주문 Repository 개발
        3. 주문 Service 개발
+       4. 주문 기능 테스트(OrderServiceTest) 개발
