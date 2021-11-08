@@ -22,3 +22,4 @@
        2. 주문 Repository 개발
        3. 주문 Service 개발
        4. 주문 기능 테스트(OrderServiceTest) 개발
+       5. 주문 검색 기능 개발 (JPA Criteria, JPQL append String)
