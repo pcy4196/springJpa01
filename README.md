@@ -23,3 +23,5 @@
        3. 주문 Service 개발
        4. 주문 기능 테스트(OrderServiceTest) 개발
        5. 주문 검색 기능 개발 (JPA Criteria, JPQL append String)
+  + Ch03. Web 계층 개발
+       1. 홈화면과 레이아웃
