@@ -25,3 +25,4 @@
        5. 주문 검색 기능 개발 (JPA Criteria, JPQL append String)
   + Ch03. Web 계층 개발
        1. 홈화면과 레이아웃
+       2. 회원 등록 폼과 등록 처리
