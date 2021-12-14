@@ -12,6 +12,7 @@ spring:
   jpa:
     hibernate:
       ddl_auto: update
+#      ddl_auto: create
     properties:
       hibernate:
 #        show_sql: true # system.out.println ? ??? ??
